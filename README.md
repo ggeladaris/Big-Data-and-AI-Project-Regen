@@ -8,5 +8,6 @@ The Python code is split in 4 different modules:
     Training-Evaluating: where the functions necessary to create and train the model are defined, as well as the ones that will messure its accuracy and create predictions for the test dataset. 
 
 Inside, each of these modules exists a function (Preprocessing, Splitting and Train_Eval respectively) that uses the functions created as its name suggests, that is preprocessing and splitting the dataset, as well as training a model and applying it to the test set. These chief functions in each module are imported and used in the main function of the project whereupon the accuracy of the model is returned.
+
 Test
 In order to test the model again one just has to call the main function of the main module. It is important that the script files are in the same directory(folder) and of course so should the data.csv file containing the listings be. 
